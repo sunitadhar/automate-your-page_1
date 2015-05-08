@@ -1,0 +1,76 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+
+} 
+body {
+  padding: 50px 50px; 
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1500px; 
+  margin: 0 auto; 
+  font-size: 30px;
+  background-color: grey;
+  color: white;
+}            
+.notes {
+  border-radius: 50px; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+.title {
+  background-color: maroon;
+  font-size: 70px;
+  font-style: italic;
+  text-align: center; 
+} 
+.sub-title {
+  background-color: blue;
+  font-size: 50px;
+  font-style: normal;
+  text-align: center;
+}
+.tableofcontents {
+  background-color: #33bebe;
+  font-size: 30px;
+  font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.lessons {
+  font-size: 30px;
+  font-style: normal;
+  text-align: left;
+}
+.lesson1 {
+  background-color: #DB7093;
+}
+.lesson2 {
+  background-color: #B0E0E6;
+}
+.lesson3 {
+  background-color: #DDA0DD;
+}
+.lesson4 {
+  background-color: #66CDAA;
+}
+.Def-title {
+  font-size: 40px;
+  font-style: italic;
+  text-align: left;
+  margin-left: 10px;
+}
+.Def-description {
+  font-size: 25px;
+  font-style: normal;
+  text-align: left;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.def-bold-text {
+  color: #8A2BE2;
+}
+
+    

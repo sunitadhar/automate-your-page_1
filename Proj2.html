@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Proj2.css">
+	<title> Project 1,2 </title>
+</head>
+<body>
+	<h1 class="title">Sunita's Notes for Nanodegree</h1>
+	<h2 class="sub-title"> Important Concepts</h2>
+
+	<div class="tableofcontents">
+		<b>PROJECT 1</b>
+		<ul>
+			<li><a href="#L-1">Lesson 1: Basics of the Web and HTML</a>
+				<ol>
+					<li><a href="#L-1.1">The Web</a></li>
+					<li><a href="#L-1.2">HTML (Hypertext Markup Language)</a></li>
+					<li><a href="#L-1.3">Elements and Tags</a></li>
+					<li><a href="#L-1.4">Inline and Block Elements</a></li>
+					<li><a href="#L-1.5">Box Model</a></li>
+				</ol>
+			</li>
+		</ul>
+		<ul>
+			<li><a href="#L-2">Lesson 2: Creating a Document with HTML</a>
+				<ol>
+					<li><a href="#L-2.1">Tree like structure</a></li>
+					<li><a href="#L-2.2">Text Editors</a></li>
+				</ol>
+			</li>
+		</ul>
+		<ul>
+			<li><a href="#L-3">Lesson 3: CSS Style</a>
+				<ol>
+					<li><a href="#L-3.1">Avoiding Repetition and Errors</a></li>
+					<li><a href="#L-3.2">CSS(Cascading Style Sheets)</a></li>
+				</ol>
+			</li>
+		</ul>
+		<b>PROJECT 2</b>
+		<ul>
+			<li><a href="#L-4">Lesson 4:Telling Computers what to Do</a>
+				<ol>
+					<li><a href="#L-4.1"> Computer</a></li>
+					<li><a href="#L-4.2">Computer Program</a></li>
+					<li><a href="#L-4.3">Programming Language</a></li>
+					<li><a href="#L-4.4">Python</a></li>
+					<li><a href="#L-4.5">Python Grammar</a></li>
+					<li><a href="#L-4.6">Variables in Python</a></li>
+					<li><a href="#L-4.7">Strings in Python</a></li>
+					<li><a href="#L-4.8">Functions and Procedures</a></li>
+					<li><a href="#L-4.9">Loops</a></li>
+					<li><a href="#L-4.10">Structured Data</a></li>
+				</ol>
+			</li>
+		</ul>
+	</div>
+
+	<div class="lessons">
+		<div class="lesson1">
+			<h2 class="sub-title" id="L-1">Lesson 1: Basics of the Web and HTML </h2>
+			<div class="Def-title" id="L-1.1">
+				<b> The Web</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					The web is a group of computers that communicate with each other. When a person browses on a computer; the request is send to the server through the Internet. The server finds the page and sends back to the persons computer screen.
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-1.2">
+				<b> HTML (Hypertext Markup Language)</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					It is the language used to create most of the web pages. It describes the text contents and how the page should look, and how to inclued images, links and all.
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-1.3">
+				<b> Elements and Tags </b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					HTML documents are made of HTML elements. When writing HTML, we use the tags to tell the browser the type of element we are using.
+					Example: <b> element is to make the text bold.</b>
+					<em> element is to italicizes the text. </em>
+
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-1.4">
+				<b> Inline and Block Elements</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					HTML elements are written in either inline or blocks. Blocks are like boxes that are invisible in the browser.
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-1.5">
+				<b> Box Model</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					The box model is used to position boxes on a web page and consists of:
+					<br><br>
+					Margin: Space between boxes on a page and is invisible.<br><br>
+					Border: Outline of a box.<br><br>
+					Padding: Area around the center of the box.<br><br>
+					Content: The actual contents of the box (like nucleus).<br><br>
+					Boxes can be sized in three ways: size by pixels, size by using a percent value, or by using "box-sizing: border-box" for every element
+
+				</p>
+			</div>
+
+		</div>
+
+
+		<div class="lesson2">
+			<h2 class="sub-title" id="L-2"> Lesson 2: Creating a Document with HTML</h2>
+			<div class="Def-title" id="L-2.1">
+				<b>Tree like structure </b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					When writing a document in HTML, we may have different elements inside the main element. It is just like a family tree, parents having children and their children and so on..example;<br>
+					<span style="color: #ff0000">&lt;parent&gt;</span><br>
+					&nbsp;<span style="color: #ff0000">&lt;child&gt;</span><br>
+					&nbsp;&nbsp;<span style="color: #ff0000">&lt;subchild&gt;.....&lt;subchild&gt;</span><br>
+					&nbsp;<span style="color: #ff0000">&lt;child&gt;</span><br>
+					<span style="color: #ff0000">&lt;parent&gt;</span><br>
+					In the browser, it shows like boxes inside a box and so on. While writing HTML, we indent the elements in a way so that it is visibly clear where the elements start and end.
+
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-2.2">
+				<b>Text Editors </b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					When writing a code, programmers use text editors like Codepen and Sublime Text to make coding little easy. It can help them pick a tag from number of options it shows when a programmer types the first letter of the element and so on.
+				</p>
+			</div>
+
+		</div>
+
+
+
+		<div class="lesson3">
+			<h2 class="sub-title" id="L-3">Lesson 3: CSS Style </h2>
+			<div class="Def-title" id="L-3.1">
+				<b>Avoiding Repetition and Errors </b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					While programming, we may have to use certain style attributes to different HTML elements for the web page. We can do this by writing the same style attribute for different HTML elements again and again. It means repetition and will lead to errors. We can avoid the errors and repetition by assigning the same class to different <span style="color: #ff0000">&lt;div&gt;</span> and then specify the style for that class at one place. Any future changes will be easy too!
+					For example if we want to change text color on the web page; meaning we have to change the text color attribute at all the places in all the <span style="color: #ff0000">&lt;div&gt;</span>, while as if we have specified a same class for the different <span style="color: #ff0000">&lt;div&gt;</span>, we just need to change the text attribute at one place only.
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-3.2">
+				<b> CSS(Cascading Style Sheets)</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					Programmers use it to give style to HTML elements. We can use CSS to use different Background colors, use different colors in different blocks, make text bold, change font, italicized and so on.. There are three ways we can do this:
+					<br><br>
+					Method 1. At the top of the HTML, we can add head element and write the CSS under the style element.<br><br>
+
+					Method 2. It lets us to stay organized. We can create a separate file with CSS code and link that to the HTML file. We can include the style file name in the head element of the HTML file.<br><br>
+
+					Method3. We write the style inline with HTML. This method should be avoided as it results in lot of repetition and errors.<br><br>
+				</p>
+			</div>
+
+		</div>
+
+		<div class="lesson4">
+			<h2 class="sub-title" id="L-4">Lesson 4:Telling Computers what to Do</h2>
+			<div class="Def-title" id="L-4.1">
+				<b> Computer</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					Most machines are designed to do few things, but computers cannot do anything on its own, unless you write programs to instruct them to do many things. Computer is an electronic device for storing and processing data  according to instructions given to it in a program.
+
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-4.2">
+				<b> Computer Program</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					Program is a set of instructions that programmers write to instruct computer to what to do. Some examples are Web browsers, games, apps and so on.
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-4.3">
+				<b> Programming Language </b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					Programming Language, like Python is a language that  programmers use to write set of instructions that in turn  instructs the computer to what to do.
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-4.4">
+				<b> Python</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					Python is an programming language. It converts the code into the language computer understands and executes.
+					.
+				</p>
+			</div>
+
+			<div class="Def-title" id="L-4.5">
+				<b> Python Grammar</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					Python Grammar are set of rules that programmers follow while writing the code. It is the same as we have English grammar rules. In Python, we have expression, followed by operation, followed by expression. Expression can be replaced either by another expression or numbers (0,1,...). Operation is what kind of operations we want to do with those numbers. In short, we have to follow set of rules while coding so that computer can interpret and execute correctly.
+
+
+				</p>
+			</div>
+			<div class="Def-title" id="L-4.6">
+				<b> Variables in Python</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					We use variables to give names to values. For example if speed_of_car is a variable with a value of 20, then the following code would print out 2000: <br><br>
+					&nbsp;&nbsp;   print 100 * speed_of_car.<br><br>
+					We can assign the value 20 to the variable speed_of_car by writing code like this:<br><br>
+					&nbsp;&nbsp;   speed_of_car = 20<br><br>
+					We can even change the value of a variable by re-assigning it to a different value later. Use of variables in programming improves code readability, and can store the value of important data that can be easily changed.<br><br>
+					How we use '=' in Python is also different: If we type	    1 + 2 = 3,  the equals sign means "is the same as"; while as if we type speed_of_car = 20, the equals sign means "takes the value of".
+				</p>
+			</div>
+			<div class="Def-title" id="L-4.7">
+				<b> Strings in Python</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					String is a sequence of characters in a quote or quotes. <br> For example:<br><br>
+					&nbsp;&nbsp;	name = 'Dave' <br>   
+					&nbsp;&nbsp;	print 'Hello ' + name <br><br>  
+					The result will be Hello Dave<br><br>
+					One more important thing in Python is: 2 is a number while "2" is a string too. The code 2 + 2 would give 4. The code "2" + "2" would give "22".
+				</p>
+			</div>
+			<div class="Def-title" id="L-4.8">
+				<b> Functions or Procedures</b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					A function takes an input, processes it and then produces an output. We can code this by using the keyword def and then writing fuction name followed by the function parameters in paranthese. In the next line, we write the code that specifies what to do with the input parameters. When this procedure is called, the parameters are replaced by actual values.  For example:   A procedure named <b> add </b> might take two numbers as input and returns the sum of two numbers as output and can be written as follows:<br><br>
+					def add( x, y )<br>
+					&nbsp;  return x + y<br><br>
+					When we call this procedure as:<br><br>
+					print add( 2, 3 ) ;<br> It will give us the output of 5. <br><br>
+					Without the return statement, we cannot see the output of 5. It will give us the output of NONE.<br>
+					Once a procedure is defined, we never have to define it again and we can reuse them forever. It helps programmers to avoid repetition too!!
+
+
+				</p>
+			</div>
+			<div class="Def-title" id="L-4.9">
+				<b> Loops </b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					<span class="def-bold-text">
+						While loop: 
+					</span>
+					A while loop statement in Python programming language repeatedly executes a single statement or a block of statements till test expression is true.<br>
+					Syntax: while <span style="color: #ff0000">&lt;test expression&gt;</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff0000">&lt;block&gt;</span><br>
+					When the test expression becomes false, program control passes to the line immediately following the loop.  The while loop  might not ever run. When the condition is tested and the result is false, the loop body will be skipped and the first statement after the while loop will be executed.<br>
+					Example: The following while loop will print the numbers from 0 to 10.<br><br>
+					i = 0<br>
+					while i &lt; 10:<br>
+					&nbsp;&nbsp;	print i<br>
+					&nbsp;&nbsp;	i = i + 1<br><br>
+
+					<span class="def-bold-text">
+						Infinite Loop:
+					</span> 
+					A loop becomes infinite loop if a condition never becomes false. Example: Since i is never going to be equal to 10; the following while loop will run for ever or till computer memory gives up.<br><br>
+					i = 1<br>
+					while i != 10:<br>
+					&nbsp;&nbsp;	i = i + 2<br>
+					&nbsp;&nbsp;	print i<br>
+
+				</p>
+			</div>
+			<div class="Def-title" id="L-4.10">
+				<b> Structured Data </b>
+
+			</div>
+			<div class="Def-description">
+				<p>
+					We learned two ways of structuring data: Strings and Lists.<br><br>
+					<span class="def-bold-text">Strings:</span> are the most popular types in Python. We can create them by enclosing sequence of characters in quotes and assigning it to the variable. Python treats single quotes the same as double quotes. For example:<br><br>
+					&nbsp;&nbsp;s = 'yabba!'<br><br>
+					<span class="def-bold-text">Lists:</span>  It is a most versatile datatype available in Python. It can be written as a list of values separated by commos between square brackets. Important thing about a list is that value can be sequence of anything like strings, numbers and so on. Lists can even contain other lists. For example:<br><br>
+					&nbsp;&nbsp;p = ['y', 'a', 'b', 'b', 'a', '!', '9', [1, 3]]<br><br>
+
+					Accessing Values in strings and Lists is similar. Each element or value of a sequence is assigned a number - its position or index. The first index is zero, the second index is one, and so forth. To access values in strings or lists,  we use the square brackets indicating the index to obtain value available at that index. For example:<br><br>
+					&nbsp;&nbsp;s[0] = p[0] = 'y'<br>
+					&nbsp;&nbsp;s[2:4] = 'bb'<br>
+					&nbsp;&nbsp;p[2:4] = [ 'b', 'b']<br><br>
+					<span class="def-bold-text">Mutation:</span> It means adding or changing the same variable space without creating the new variable space. Like in lists we can append to the same variable and not create a new variable like string and adding or changing the new data.<br><br>
+					<span class="def-bold-text">List operations:</span><br>
+					<span class="def-bold-text">Append:</span> We can add to elements in a list with the append operator, like <span style="color: #ff0000">&lt;list&gt;</span>.append(<span style="color: #ff0000">&lt;element&gt;</span>). The + operator can also add a element in a list, but it creates a new variable instead of appending to the same variable.<br><br>
+					<span class="def-bold-text">Len:</span> We can use len operator to find no. of elements in a list, like len(<span style="color: #ff0000">&lt;list&gt;</span>)<br><br>
+					 <span class="def-bold-text">Index and In: </span> We can use these operations to find the index number of a particular cell in a list.<br><br>
+					<span class="def-bold-text">For Loops:</span> We can use for loops to go thru the values in the list using one statement and not needing to use the index of that cell. Like: for<span style="color: #ff0000">&lt;name&gt;</span> in <span style="color: #ff0000">&lt;list&gt;</span>
+					For example:<br>
+					If we have to print all the numbers stored in list p, we can use for loop as follows:<br><br>
+					&nbsp;&nbsp;for e in p:<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;  print e<br><br>
+					The above code will go thru all the values stored in list p and print them!
+
+				</p>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
